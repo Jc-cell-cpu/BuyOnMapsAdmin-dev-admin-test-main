@@ -13,9 +13,9 @@ const Dashboard: React.FC = () => {
   return (
     <DefaultLayout>
       {/* Stats Section */}
-      {/* <div className="mb-6">
+      <div className="mb-6">
         <DataStatsOne />
-      </div> */}
+      </div>
 
       {/* Charts Grid Section */}
       <div className="mb-6 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
